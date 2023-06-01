@@ -2,7 +2,7 @@
 
 this markdown is practice
 ````mermaid
-  graph TD;
+  graph LR;
      A --> B;
     B --> C;
     C --> D;
