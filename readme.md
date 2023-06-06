@@ -8,7 +8,7 @@ this markdown is practice
     erDiagram
           INSTALL }|..|{ SETTINGS : plugin
           SETTINGS ||--o{ CONNECTED : query
-          CONNECTED ||--o{ WOOCOMERCE_SURVEY : "amd"
+          CONNECTED ||--o{ WOOCOMERCE-SURVEY : "amd"
           WOOCOMERCE-SURVEY ||--o{ LAB-EURECAT : "out of moodle"
           LAB-EURECAT ||--|{ WOOCOMERCE-SURVEY : "confirm and save data"
           ORDER ||--|{ ORDER-ITEM : includes
