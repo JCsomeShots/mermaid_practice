@@ -11,6 +11,7 @@ this markdown is practice
           CONNECTED ||--o{ WOOCOMERCE-SURVEY : "amd"
           WOOCOMERCE-SURVEY ||--o{ LAB-EURECAT : "out of moodle"
           LAB-EURECAT ||--|{ WOOCOMERCE-SURVEY : "save DB"
+          WOOCOMERCE-SURVEY ||--|{ SETTINGS : "In case false"
           ORDER ||--|{ ORDER-ITEM : includes
           PRODUCT-CATEGORY ||--|{ PRODUCT : contains
           PRODUCT ||--o{ ORDER-ITEM : "ordered in"
