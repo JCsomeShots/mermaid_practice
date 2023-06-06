@@ -6,9 +6,9 @@ this markdown is practice
     
     
     erDiagram
-          INSTALL PLUGIN }|..|{ SETTINGS : has
-          SETTINGS ||--o{ CONNECTED QUERY : places
-          CONNECTED QUERY||--o{ INVOICE : "liable for"
+          INSTALL }|..|{ SETTINGS : has
+          SETTINGS ||--o{ CONNECTED : places
+          CONNECTED ||--o{ INVOICE : "liable for"
           DELIVERY-ADDRESS ||--o{ ORDER : receives
           INVOICE ||--|{ ORDER : covers
           ORDER ||--|{ ORDER-ITEM : includes
