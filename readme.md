@@ -5,6 +5,9 @@ this markdown is practice
   graph LR;
      Installplugin --> Settings;
      Settings --> Connected query;
+    Connected_query --> amd_woocomerce_forum;
+     amd_woocomerce_forum --> out labeurecat woocomerce;
+     out lab.eurecat woocomerce --> confirm and save data
   
 
 
