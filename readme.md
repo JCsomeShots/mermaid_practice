@@ -10,7 +10,7 @@ this markdown is practice
           SETTINGS ||--o{ CONNECTED : query
           CONNECTED ||--o{ WOOCOMERCE-SURVEY : "amd"
           WOOCOMERCE-SURVEY ||--o{ LAB-EURECAT : "out of moodle"
-          LAB-EURECAT ||--|{ WOOCOMERCE-SURVEY : "confirm and save data"
+          LAB-EURECAT ||--|{ WOOCOMERCE-SURVEY : "save DB"
           ORDER ||--|{ ORDER-ITEM : includes
           PRODUCT-CATEGORY ||--|{ PRODUCT : contains
           PRODUCT ||--o{ ORDER-ITEM : "ordered in"
