@@ -9,8 +9,7 @@ this markdown is practice
           INSTALL }|..|{ SETTINGS : plugin
           SETTINGS ||--o{ CONNECTED : query
           CONNECTED ||--o{ WOOCOMERCE-SURVEY : "amd"
-          WOOCOMERCE-SURVEY ||--o{ LAB-EURECAT : "out of moodle"
-          LAB-EURECAT ||--|| WOOCOMERCE-SURVEY : "back"
+          WOOCOMERCE-SURVEY ||--o{ LAB-EURECAT : "Activate"
           WOOCOMERCE-SURVEY ||--|{ SAVE-DB : "true"
           WOOCOMERCE-SURVEY ||--|{ SETTINGS : "false"
           
